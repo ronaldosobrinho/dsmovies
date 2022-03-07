@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300&family=Roboto:wght@400;700&display=swap');
 *{
+    box-sizing: border-box;
     font-family: 'Open sans', sans-serif;
 }
 
-body{
-    background-color: rgb(42, 116, 165);
-    color: aliceblue;
+html, body {
+    background-color: #E8E8E8;
 }
+header{
+    background-color: #4D41C0;
+    color: #fff;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+} 
