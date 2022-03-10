@@ -91,6 +91,6 @@ a, a:hover {
     justify-content: center;
     border-radius: 4px;
 }
-.dsmovie-btn:hover{
-
+.dsmovie-form-container{
+    padding: 40px 0;
 }
